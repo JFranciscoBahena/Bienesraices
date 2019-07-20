@@ -71,6 +71,10 @@ background: #e08709;
 background: #71B100;
 }
 /* HEADER */
+.site-header {
+    background-color: #333333;
+    padding: 1rem 0 3rem 0;
+}
 .site-header.inicio {
     background-image: url(../img/header.jpg);
     background-position: center center;
@@ -283,4 +287,18 @@ justify-content: space-between;
 .copyright {
 margin: 0;
 color: white;
+}
+
+/**INTERNAS**/
+.contenido-nosotros {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 2rem;
+}
+
+.texto-nosotros blockquote{
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 0;
+    padding: 3rem 0;
 }
